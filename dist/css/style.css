@@ -1,0 +1,82 @@
+.credit{
+    margin: 45px 0 0 0;
+      padding: 40px 0 30px 0;
+      background-color: #eee;
+      color: #5a5a5a;
+    }
+    .footer {
+      border-top: solid 1px #d7d7d7;
+      color: #5a5a5a;
+      background-color: #eee;  
+    }
+    footer {
+        font-size: 12px;
+        margin: 20px 0 8px 0;
+    }
+    .tab{
+        height: 5px;
+        width: 100%;
+        background-color: #055968;
+    }
+.wsm{
+  border-radius: 100px;
+  color: #FFCC00;
+  display: inline-block;
+  font-size: 50px;
+  height: 100px;
+  line-height: 100px;
+  width: 100px;
+  -webkit-transition: background-color 0.2s ease;
+  transition: background-color 0.2s ease;
+}
+@font-face {
+font-family: helvethaica;
+src: url("fonts/helvethaica.eot") /* EOT file for IE */
+}
+@font-face {
+font-family: helvethaica;
+src: url("fonts/helvethaica.ttf") /* TTF file for CSS3 browsers */
+}
+h3{
+  font-family:'helvethaica';
+  font-size:30px;
+  color: #056839;;
+}
+h1{
+  font-family:'helvethaica';
+  font-size:40px;
+  color: #00713d;
+}
+h4{
+  font-family:'helvethaica';
+  font-size:22px;
+  color: #00713d;
+}
+
+@font-face {
+  font-family: 'sukhumvit_settext';
+  src: url('fonts/sukhumvitset-text-webfont.eot');
+  src: url('fonts/sukhumvitset-text-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/sukhumvitset-text-webfont.woff2') format('woff2'),
+       url('fonts/sukhumvitset-text-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+body{
+  font-family:'sukhumvit_settext';
+  font-size: 1.4em; 
+  color: #5a5a5a;
+}
+h2{
+  font-family:'sukhumvit_settext';
+  font-size:30px;
+  color: #5a5a5a;
+}
+/*img {
+-webkit-filter: grayscale(70%); 
+filter: grayscale(70%);
+}
+html {
+-webkit-filter: grayscale(70%);
+}*/

@@ -1,0 +1,41 @@
+#back-top {
+	position: fixed;
+	bottom: 10px;
+	margin-left:80%;
+}
+#back-top a {
+	width: 40px;
+	display: block;
+	text-align: center;
+	font: 11px/100% Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #ccc;
+	/* background color transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+#back-top a:hover {
+	color: #000;
+}
+/* arrow icon (span tag) */
+#back-top span {
+	width: 40px;
+	height: 40px;
+	display: block;
+	margin-bottom:40px;
+	background: #ccc url(../img/up-arrow2.png) no-repeat center center;
+	/* rounded corners */
+	-webkit-border-radius: 70px;
+	-moz-border-radius: 70px;
+	border-radius: 70px;
+	/* background color transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+	z-index: 20002;
+}        
+#back-top a:hover span {
+	background-color: #777;
+}
